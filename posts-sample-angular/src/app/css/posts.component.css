@@ -1,0 +1,10 @@
+.input-filter {
+  font-size: 20px;
+}
+
+.post-list {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

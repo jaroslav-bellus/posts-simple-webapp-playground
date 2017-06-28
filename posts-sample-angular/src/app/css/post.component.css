@@ -1,0 +1,10 @@
+.post {
+    margin: 10px 0;
+    padding: 15px;
+    width: 600px;
+    border: 1px solid black;
+}
+
+.post__title {
+    text-align: center;
+}

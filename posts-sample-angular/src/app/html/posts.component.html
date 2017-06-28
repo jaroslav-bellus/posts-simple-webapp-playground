@@ -1,0 +1,21 @@
+<div>
+    <p>
+        <input 
+            #inputFilter
+            class="input-filter"
+            type="text" 
+            placeholder="Enter text to filter posts"
+            (keyup)="filter(inputFilter.value)"
+        >
+    </p>
+
+    <p>
+        There are {{filteredPosts.length}} Posts
+    </p>
+
+    <div class="post-list">
+        <my-post *ngFor="let post of filteredPosts"
+            [post]="post"
+        ></my-post>
+    </div>
+</div>
